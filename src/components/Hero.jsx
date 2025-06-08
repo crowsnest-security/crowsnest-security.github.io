@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="py-4 px-4 mx-auto max-w-screen-xl text-center ">
         <img
           src="img/cnui.svg"
-          className="h-88 mb-10 mx-auto md:shadow-xl rounded-lg"
+          className="h-88 md: mb-10 mx-auto md:shadow-xl rounded-lg"
         />
         <h1 className="mb-4 text-5xl font-extrabold leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           <span className="font-light">from</span> Cyber Compliance

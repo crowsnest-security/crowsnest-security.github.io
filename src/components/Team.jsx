@@ -36,13 +36,13 @@ const Team = () => {
     },
   ];
   return (
-    <section className="dark:bg-crow-dark w-4/5 mx-auto">
-      <div className=" px-4 mx-auto  text-center  lg:px-6">
-        <div className="mx-auto mb-8  lg:mb-16">
-          <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    <section className="dark:bg-crow-dark ">
+      <div className="  text-center lg:px-6 w-full">
+        <div className="mx-auto mb-8  flex flex-col lg:mb-16 w-full">
+          <h2 className="mx-auto text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Built by Leaders in Cybersecurity
           </h2>
-          <p className="mt-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="mt-8 p-5 text-md font-light w-full text-gray-500 sm:text-xl dark:text-gray-400">
             CrowsNest is powered by a team of seasoned cybersecurity
             experts—former CISOs, security architects, and compliance leaders
             from world-class technology companies and global enterprises. With

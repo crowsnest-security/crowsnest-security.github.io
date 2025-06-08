@@ -12,10 +12,10 @@ export default function Home() {
       description="Meta description"
     >
       <header>
-        <div className=" mx-auto px-4 text-center p-10"></div>
+        <div className=" mx-auto px-4 text-center p-5"></div>
       </header>
 
-      <main className="mx-auto">
+      <main>
         <Team />
       </main>
     </Layout>

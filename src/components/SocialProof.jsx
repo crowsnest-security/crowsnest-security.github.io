@@ -5,7 +5,7 @@ const SocialProof = () => {
     <section className=" dark:bg-crow-dark">
       <div className="w-1/2 px-4 py-4 mx-auto text-center lg:py-4 lg:px-6">
         <div className=" mb-8 lg:mb-16">
-          <h2 className="mb-4 text-5xl  tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Risk without visibility is risk accepted
           </h2>
           <p className="text-gray-500 sm:text-xl dark:text-gray-400">
@@ -28,9 +28,7 @@ const SocialProof = () => {
             </dd>
           </div>
           <div className="flex flex-col items-center justify-center card p-5 bg-crow-primary text-white">
-            <span className="mb-2 text-6xl md:text-4xl font-extrabold">
-              292 days
-            </span>
+            <span className="mb-2 text-4xl font-extrabold">292 days</span>
             <dd className="font-light mx-auto  dark:text-gray-400">
               average prolonged breach detection
             </dd>

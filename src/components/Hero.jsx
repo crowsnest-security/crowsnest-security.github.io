@@ -6,7 +6,7 @@ const Hero = () => {
           src="img/cnui.svg"
           className="h-88 mb-10 mx-auto shadow-xl rounded-lg"
         />
-        <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="mb-4 text-6xl font-extrabold leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           <span className="font-light">from</span> Cyber Compliance
           <span className="font-light"> to</span> Cyber Strategy
         </h1>

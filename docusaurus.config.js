@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://lewis-backplane.github.io",
+  url: "https://crowsnest-security.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/crow-www/",
+  baseUrl: "/website/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "lewis-backplane", // Usually your GitHub org/user name.
-  projectName: "crow-www", // Usually your repo name.
+  organizationName: "crowsnest-security", // Usually your GitHub org/user name.
+  projectName: "website", // Usually your repo name.
   trailingSlash: false, // Optional but recommended for GitHub Pages
   deploymentBranch: "gh-pages", // Explicitly define deploy branch
 

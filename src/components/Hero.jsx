@@ -19,7 +19,7 @@ const Hero = () => {
           from a checkbox exercise into a catalyst for cyber resilience and
           executive decision-making.
         </p>
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <div className="gap-4 flex flex-row justify-center">
           <a
             href="http://localhost:3000"
             target="_blank"

@@ -87,17 +87,17 @@ const config = {
           src: "img/navlogo.svg",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "right",
-            label: "Docs",
-          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "right",
+          //   label: "Docs",
+          // },
           { to: "/", label: "Home", position: "left" },
           { to: "/about", label: "About", position: "left" },
           { to: "/our-story", label: "Our Story", position: "left" },
           { to: "/features", label: "Features", position: "left" },
-          { to: "http://localhost:3000", label: "Demo", position: "left" },
+          // { to: "http://localhost:3000", label: "Demo", position: "left" },
 
           // { to: "/blog", label: "Blog", position: "left" },
           // {

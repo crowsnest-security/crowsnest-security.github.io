@@ -7,7 +7,7 @@ const Avatar = ({ name, role, photo, bio }) => {
         <div className="w-1/4 bg-gray-50">
           <div className="text-center justify-center  mt-10 items-center text-gray-500 dark:text-gray-400  ">
             <img
-              className="mx-auto mb-4 w-12 h-12 md:w-24 md:h-24 rounded-full"
+              className="mx-auto mb-4 w-12 h-12 lg:w-24 lg:h-24 rounded-full"
               src={photo}
               alt={name}
             />

@@ -128,6 +128,15 @@ const config = {
               },
             ],
           },
+          {
+            title: "Corporate",
+            items: [
+              {
+                label: "Privacy Policy",
+                href: "/privacy",
+              },
+            ],
+          },
           // {
           //   title: "More",
           //   items: [

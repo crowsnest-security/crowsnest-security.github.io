@@ -3,7 +3,7 @@ import React from "react";
 const SocialProof = () => {
   return (
     <section className=" dark:bg-crow-dark">
-      <div className="md:w-1/2 px-4 py-4 mx-auto text-center lg:py-4 lg:px-6">
+      <div className=" px-4 py-4 mx-auto text-center lg:py-4 lg:px-6">
         <div className=" mb-8 lg:mb-16">
           <h2 className="mb-4 text-3xl md:text-4xl sm:text-xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Risk without visibility is risk accepted

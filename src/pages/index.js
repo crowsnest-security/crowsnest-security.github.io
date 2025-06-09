@@ -72,11 +72,11 @@ export default function Home() {
         <FeatureTooling vendors={vendors} />
         <FeatureIntegration vendors={cloudvendors} />
 
-        <Testimonial
+        {/* <Testimonial
           quote="CrowsNest isn't just a tool it's become a strategic cornerstone for secure, modern businesses."
           name="Robert Erenberg-Andersen"
           role="CEO & Founder"
-        />
+        /> */}
       </main>
     </Layout>
   );

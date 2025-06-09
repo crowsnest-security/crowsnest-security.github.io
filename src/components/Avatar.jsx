@@ -3,7 +3,7 @@ import React from "react";
 const Avatar = ({ name, role, photo, bio }) => {
   return (
     <>
-      <div className="flex flex-row gap-5 card shadow-2xl w-130">
+      <div className="flex flex-row gap-5 card shadow-2xl w-130 m-5">
         <div className="w-1/4 bg-crow-primary">
           <div className="text-center justify-center  mt-10 items-center text-gray-500 dark:text-gray-400  ">
             <img

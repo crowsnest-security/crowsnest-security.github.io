@@ -108,13 +108,13 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
-            title: "Docs",
+            title: "Documentation",
             items: [
               {
-                label: "Tutorial",
+                label: "Getting Started",
                 to: "/docs/intro",
               },
             ],
@@ -123,22 +123,18 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Slack Dev team",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Crowsnest on Slack",
+                href: "https://crowsnestsecurity.slack.com/",
               },
             ],
           },
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
             ],
           },
         ],

@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="From Cyber Compliance to Cyber Strategy Platform"
+      description="From Cyber Compliance to Cyber Strategy"
     >
       <header>
         <div className="max-w-4xl mx-auto px-4 text-center p-10">

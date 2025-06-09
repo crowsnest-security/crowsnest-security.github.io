@@ -4,10 +4,10 @@ const Avatar = ({ name, role, photo, bio }) => {
   return (
     <>
       <div className="flex flex-row gap-5 card shadow-2xl w-130">
-        <div className="w-1/4 bg-gray-50">
+        <div className="w-1/4 bg-crow-primary">
           <div className="text-center justify-center  mt-10 items-center text-gray-500 dark:text-gray-400  ">
             <img
-              className="mx-auto mb-4 w-12 h-12 lg:w-24 lg:h-24 rounded-full"
+              className="mx-auto mb-4 w-12 h-12 md:w-24 md:h-24 rounded-full"
               src={photo}
               alt={name}
             />

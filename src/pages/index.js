@@ -1,7 +1,7 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Hero from "../components/Hero";
-import Features from "../components/Features";
+
 import SocialProof from "../components/SocialProof";
 import Testimonial from "../components/Testimonial";
 import FeatureSection from "../components/FeatureSection";

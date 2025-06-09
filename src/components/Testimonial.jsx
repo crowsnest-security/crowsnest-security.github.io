@@ -6,7 +6,7 @@ const Testimonial = ({ quote, name, role }) => {
       <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-8 lg:px-6">
         <figure className="max-w-screen-md mx-auto">
           <blockquote>
-            <p className="text-2xl font-medium text-gray-900 dark:text-white">
+            <p className="text-md md:text-2xl font-medium text-gray-900 dark:text-white">
               {quote}
             </p>
           </blockquote>

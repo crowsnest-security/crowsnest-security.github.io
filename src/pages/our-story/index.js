@@ -12,7 +12,7 @@ export default function Home() {
     >
       <header>
         <div className="max-w-4xl mx-auto px-4 text-center p-10">
-          <h2 className="text-5xl tracking-tight  text-gray-900 dark:text-white">
+          <h2 className="mx-auto text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Story
           </h2>
         </div>

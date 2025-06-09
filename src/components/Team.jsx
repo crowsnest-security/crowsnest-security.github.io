@@ -51,7 +51,7 @@ const Team = () => {
           </p>
         </div>
         <div>
-          <h2 className="mb-8 text-4xl tracking-tight  text-gray-900 dark:text-white">
+          <h2 className="mb-8 text-3xl tracking-tight  text-gray-900 dark:text-white">
             Founders
           </h2>
         </div>

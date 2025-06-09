@@ -20,7 +20,7 @@ export default function Home() {
   ];
 
   const frameworkvendors = [
-    { name: "nist", logo: "/img/vendors/nist.svg" },
+    { name: "nist", logo: "img/vendors/nist.svg" },
     { name: "hipaa", logo: "img/vendors/hipaa.png" },
     { name: "iso", logo: "img/vendors/iso.png" },
     { name: "soc2", logo: "img/vendors/soc2.png" },

@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "crowsnest-security", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
+  projectName: "crowsnest-security.github.io", // Usually your repo name.
   trailingSlash: false, // Optional but recommended for GitHub Pages
   deploymentBranch: "gh-pages", // Explicitly define deploy branch
 

@@ -6,7 +6,7 @@ const FeatureCard = ({ icon, name, description }) => {
 
       {/* FeatureCard Card */}
 
-      <div className="border rounded-lg w-96">
+      <div className="border rounded-lg m-5">
         <div className="flex flex-row">
           <div className="w-32 p-5  bg-gray-100 justify-center   bg-primary-100 dark:bg-primary-900">
             <svg

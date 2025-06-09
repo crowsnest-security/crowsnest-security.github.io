@@ -6,10 +6,10 @@ const Hero = () => {
           src="img/cnui.svg"
           className="h-88 md: mb-10 mx-auto md:shadow-xl rounded-lg"
         />
-        <h1 className="mb-4 text-3xl md:text-5xl font-extrabold leading-none text-gray-900 lg:text-6xl dark:text-white">
+        <h2 className="mb-4 text-3xl md:text-5xl font-extrabold leading-none text-gray-900 lg:text-6xl dark:text-white">
           <span className="font-light">from</span> Cyber Compliance
           <span className="font-light"> to</span> Cyber Strategy
-        </h1>
+        </h2>
 
         <p className="mb-8 mt-8 text-lg font-normal text-gray-500 lg:text-lg sm:px-16  dark:text-gray-400">
           CrowsNest is a cyber security compliance automation platform that

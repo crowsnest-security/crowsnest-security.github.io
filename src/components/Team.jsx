@@ -5,7 +5,7 @@ const Team = () => {
   const team = [
     {
       name: "Robert Erenberg-Andersen",
-      role: "CEO & Founder",
+      role: "Chief Executive Officer & Founder",
       photo: "img/avatars/rob.jpg",
       bio: "Award-winning, globally-recognized cybersecurity expert with extensive experience guiding F500 companies through cyber transformations",
     },

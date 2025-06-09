@@ -87,6 +87,14 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+
+    /* Custom Styles */
+
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: 2.25rem;
+
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
   }
 
   html[data-theme="dark"] {

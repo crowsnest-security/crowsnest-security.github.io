@@ -20,13 +20,13 @@ const Hero = () => {
           executive decision-making.
         </p>
         <div className="gap-4 flex flex-row justify-center">
-          {/* <a
-            href="http://localhost:3000"
-            target="_blank"
-            className="bg-crow-primary text-white inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-gray-300 hover:bg-gray-100 hover:text-black  focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          <a
+            href="contact"
+            target=""
+            className="bg-crow-primary text-white inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-gray-300 hover:bg-crow-secondary hover:text-white  focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             Try it out
-          </a> */}
+          </a>
           <a
             href="https://youtu.be/mP50ssQO-gs?si=mmP4snI6uvKSRckN"
             target="_blank"

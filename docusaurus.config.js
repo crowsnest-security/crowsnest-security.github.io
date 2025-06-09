@@ -147,7 +147,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Crowsnest Systems, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CrowsNest Systems, Inc.`,
       },
       prism: {
         theme: prismThemes.github,

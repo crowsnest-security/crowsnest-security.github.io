@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Meta description"
+      description="From Cyber Compliance to Cyber Strategy"
     >
       <header>
         <div className="max-w-4xl mx-auto px-4 text-center p-10">

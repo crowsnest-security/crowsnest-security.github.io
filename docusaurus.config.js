@@ -136,6 +136,10 @@ const config = {
                 label: "Privacy Policy",
                 href: "/privacy",
               },
+              {
+                label: "Contact Us",
+                href: "/contact",
+              },
             ],
           },
           // {

@@ -23,12 +23,12 @@ const config = {
   url: "https://crowsnest-security.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/www/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "crowsnest-security", // Usually your GitHub org/user name.
-  projectName: "www", // Usually your repo name.
+  projectName: "crowsnest-security.github.io", // Usually your repo name.
   trailingSlash: false, // Optional but recommended for GitHub Pages
   deploymentBranch: "gh-pages", // Explicitly define deploy branch
 

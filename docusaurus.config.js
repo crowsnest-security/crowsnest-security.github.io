@@ -124,7 +124,7 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Crowsnest on Slack",
+                label: "CrowsNest on Slack",
                 href: "https://crowsnestsecurity.slack.com/",
               },
             ],

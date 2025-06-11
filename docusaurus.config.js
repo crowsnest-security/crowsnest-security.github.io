@@ -20,7 +20,8 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://crowsnest-security.github.io",
+  // url: "https://crowsnest-security.github.io",
+  url: "http://crowsne.st",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -98,7 +99,6 @@ const config = {
           { to: "/our-story", label: "Our Story", position: "left" },
           { to: "/features", label: "Features", position: "left" },
           { to: "/contact", label: "Try it out", position: "left" },
-          { to: "/risk", label: "Risk", position: "left" },
           // { to: "http://localhost:3000", label: "Demo", position: "left" },
 
           // { to: "/blog", label: "Blog", position: "left" },

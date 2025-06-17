@@ -1,41 +1,76 @@
-# Website
+# Crowsnest Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is powered by **[Docusaurus](https://docusaurus.io/)** — a modern, feature-rich static site generator that makes it easy to build, publish, and maintain a great developer experience.
 
-## Installation
+---
+
+## 🛠️ Local Development
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/crowsnest-security/crowsnest-security.github.io
+
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server with live-reload:
+
+   ```bash
+   npm run start
+   ```
+
+   Then open your browser to `http://localhost:3000` — any changes you make will reload automatically.
+
+---
+
+## 🧱 Build 🔨
+
+To generate a production-ready static site, run:
 
 ```bash
-yarn
+npm run build
 ```
 
-## Local Development
+This outputs optimized files into the `build/` folder, ready to be deployed on any static file server or CDN.
 
-```bash
-yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🌍 Deploy to GitHub Pages
 
-## Build
+We support both SSH and HTTPS deployments to GitHub Pages via the `gh-pages` branch.
 
-```bash
-yarn build
-```
+- **If using SSH** (recommended):
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+  ```bash
+  USE_SSH=true npm run deploy
+  ```
 
-## Deployment
+- **If using HTTPS and a custom GitHub username**:
 
-Using SSH:
+  ```bash
+  GIT_USER=<Your-GitHub-Username> npm run deploy
+  ```
 
-```bash
-USE_SSH=true yarn deploy
-```
+This command automatically builds the site and pushes the result to the `gh-pages` branch for hosting it via GitHub Pages.
 
-Not using SSH:
+---
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## 📘 In a Nutshell
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **🧪 Develop** locally with `npm run start`
+- **📦 Build** production-ready HTML/CSS/JS via `npm run build`
+- **🚀 Deploy** automatically with `npm run deploy`
+
+---
+
+### 💡 Pro Tips
+
+- Customize site settings in `docusaurus.config.js` (e.g., colors, metadata, plugin options).
+- Organize your documentation pages within the `docs/` and navigation in `sidebars.js`.
+- Extend site functionality using [Docusaurus plugins](https://docusaurus.io/docs/plugins).

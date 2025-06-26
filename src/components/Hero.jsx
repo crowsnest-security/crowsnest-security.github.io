@@ -7,17 +7,18 @@ const Hero = () => {
           className="md:h-88 mb-5 md:mb-10 mx-auto md:shadow-xl rounded-lg"
         />
         <h2 className="mb-4 text-3xl md:text-5xl font-extrabold leading-none text-gray-900 lg:text-6xl dark:text-white">
-          <span className="font-light">from</span> Cyber Compliance
-          <span className="font-light"> to</span> Cyber Strategy
+          Secure What's Ahead
         </h2>
 
         <p className="mb-8 mt-8 text-lg font-normal text-gray-500 lg:text-lg sm:px-16  dark:text-gray-400">
-          CrowsNest is a cyber security compliance automation platform that
-          gives enterprises real-time visibility into their compliance posture.
-          By bridging the gap between multiple security tools, it transforms
-          static frameworks into dynamic, actionable insights—turning compliance
-          from a checkbox exercise into a catalyst for cyber resilience and
-          executive decision-making.
+         <i>Tired of your enterprise security being adrift?</i>
+         <br/>
+         <br/>
+         CrowsNest helps you chart a new course. We're building the first true <b>Cyber Strategy Platform</b>, not just another compliance tool. 
+         We bring <b>clarity, control, and the ability to act</b> by aligning and automating Cyber Governance, Risk, Compliance, and Architecture. 
+         <br/>
+         <br/>
+         It's time for modern CISOs to lead, not just react.
         </p>
         <div className="gap-4 flex flex-row justify-center">
           <a
@@ -27,7 +28,7 @@ const Hero = () => {
           >
             Try it out
           </a>
-          <a
+          {/* <a
             href="https://youtu.be/mP50ssQO-gs?si=mmP4snI6uvKSRckN"
             target="_blank"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-bold text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -48,7 +49,7 @@ const Hero = () => {
               <path d="m10 15 5-3-5-3z" />
             </svg>
             Watch Demo
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

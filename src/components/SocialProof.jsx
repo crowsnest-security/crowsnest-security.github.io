@@ -5,13 +5,17 @@ const SocialProof = () => {
     <section className=" dark:bg-crow-dark">
       <div className=" px-4 py-4 mx-auto text-center lg:py-4 lg:px-6">
         <div className=" mb-8 lg:mb-16">
+          <p className="mb-8 mt-8 text-lg font-normal text-gray-500 lg:text-lg sm:px-16  dark:text-gray-400">The Problem
           <h2 className="mb-4 text-3xl md:text-4xl sm:text-xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Risk without visibility is risk accepted
+            You can't secure what you can't see
           </h2>
-          <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+          </p>
+          <p className="mb-8 mt-8 text-lg font-normal text-gray-500 lg:text-lg sm:px-16  dark:text-gray-400">
             CrowsNest empowers modern enterprises to maintain security assurance
-            at scale — providing the real-time compliance visibility and control
+            at scale — providing the real-time visibility and control
             today’s CISOs demand.
+
+            
           </p>
         </div>
         <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">

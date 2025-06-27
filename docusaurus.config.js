@@ -86,6 +86,8 @@ const config = {
         logo: {
           alt: "Crowsnest Systems Inc.",
           src: "img/navlogo.svg",
+          srcDark: "img/navlogo-dark.svg",
+          className: "navbar__logo",
         },
         items: [
           // {

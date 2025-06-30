@@ -7,32 +7,32 @@ const Team = () => {
       name: "Robert Erenberg-Andersen",
       role: "Chief Executive Officer & Founder",
       photo: "img/avatars/rob.jpg",
-      bio: "Award-winning, globally-recognized cybersecurity expert with extensive experience guiding F500 companies through cyber transformations",
+      bio: "Award-winning, globally-recognized cybersecurity expert with extensive experience guiding F500 companies, militaries and government insitutions through cyber transformations",
     },
     {
       name: "Jerry Becker",
       role: "Chief Operating Officer",
       photo: "img/avatars/jerry.jpg",
-      bio: "Red Hat and Booz Allen alumnus specializing in business development, customer engagement, innovation, and transformation",
+      bio: "Leading specialist in business development & transformation, customer success and innvation, with a track record of deliveing results spanning Big Tech, Management Consulting and Military Service",
     },
     {
       name: "Andy Block",
       role: "Chief Technical Officer",
       photo: "img/avatars/andy.jpg",
-      bio: "World-renowned cloud technologist and open source maintainer specialising in holistic system design as Red Hat’s Distinguished Architect",
+      bio: "World-renowned cloud technologist and open source maintainer specialising in holistic system design and cuttingedge technology solutions within Big Tech",
     },
 
     {
       name: "Kris Kearton",
       role: "Chief Security Officer",
       photo: "img/avatars/kris.jpg",
-      bio: "Veteran CIO/CISO with 30+ years of experience, and the former US Navy OIC for Global Cyber Risk",
+      bio: "Veteran Chief Information and Security Officeer, with 30+ years of experience in cybersecurity, risk management, and compliance across global enterprises",
     },
     {
       name: "Bríd Mackay",
       role: "Chief Experience Officer",
       photo: "img/avatars/brid.jpg",
-      bio: "Red Hat’s UX and agile lead, designing and fostering lasting, bespoke enterprise user experiences, brands, and relationships",
+      bio: "Recognized experience and agile lead, designing and fostering lasting, bespoke enterprise user experiences, brand and relationships",
     },
   ];
   return (
@@ -43,7 +43,7 @@ const Team = () => {
             Built by Leaders in Cybersecurity
           </h2>
           <p className="mt-8 p-5 text-md font-light w-full text-gray-500 sm:text-xl dark:text-gray-400">
-            CrowsNest is powered by a team of seasoned cybersecurity
+            CrowsNest is powered by a team of world-class cybersecurity
             experts—former CISOs, security architects, and compliance leaders
             from world-class technology companies and global enterprises. With
             decades of hands-on experience, we’ve turned deep industry knowledge

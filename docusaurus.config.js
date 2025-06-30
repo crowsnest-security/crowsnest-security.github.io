@@ -114,24 +114,24 @@ const config = {
       footer: {
         style: "light",
         links: [
-          {
-            title: "Documentation",
-            items: [
-              {
-                label: "Getting Started",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "CrowsNest on Slack",
-                href: "https://crowsnestsecurity.slack.com/",
-              },
-            ],
-          },
+          // {
+          //   title: "Documentation",
+          //   items: [
+          //     {
+          //       label: "Getting Started",
+          //       to: "/docs/intro",
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: "Community",
+          //   items: [
+          //     {
+          //       label: "CrowsNest on Slack",
+          //       href: "https://crowsnestsecurity.slack.com/",
+          //     },
+          //   ],
+          // },
           {
             title: "Corporate",
             items: [

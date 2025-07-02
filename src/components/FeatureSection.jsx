@@ -5,12 +5,12 @@ const FeatureSection = () => {
     <div class="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 dark:bg-gray-800 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
       <div class="lg:col-span-5 lg:mt-0">
           <img
-            className="dark:hidden"
+            className="dark:hidden rounded"
             src="img/dashboard.svg"
             alt="CrowsNest Dashboard Image"
           />
           <img
-            className="w-full hidden dark:block"
+            className="w-full hidden rounded dark:block"
             src="img/dashboard-dark.svg"
             alt="CrowsNest Dashboard Image"
           />
@@ -27,8 +27,8 @@ const FeatureSection = () => {
               Finally, everyone – from dev to exec – sees what matters most, in a way that makes sense to them. 
           <br /> No more guesswork, just results.</p>
           <a
-              href="products"
-              className="inline-flex items-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium text-sky-500 rounded-lg text-sm py-2.5 text-center dark:focus:ring-primary-900"
+              href="features"
+              className="inline-flex items-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm py-2.5 text-center dark:focus:ring-primary-900"
             >
               Explore Product
               <svg

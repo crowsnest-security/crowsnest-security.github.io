@@ -64,8 +64,8 @@ export default function Home() {
         <div class="relative w-full h-96 mb-10">
           <img
             src="img/dashboard.svg"
-            alt="Team Photo"
-            className="w-full h-full object-contain"
+            alt="Lead Tracker"
+            className="w-full rounded h-full object-contain"
           />
         </div>
 

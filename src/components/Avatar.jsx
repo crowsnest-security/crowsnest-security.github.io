@@ -3,7 +3,7 @@ import React from "react";
 const Avatar = ({ name, role, photo, bio }) => {
   return (
     <>
-      <div className="flex flex-row gap-5 card shadow-2xl w-130 m-5">
+      <div className="flex flex-row gap-5 card shadow-2xl w-130 m-5 dark:shadow-[8px_8px_16px_-8px_rgba(59,_130,_246,_0.5)]">
         <div className="w-1/4 bg-crow-primary">
           <div className="text-center justify-center  mt-10 items-center text-gray-500 dark:text-gray-400  ">
             <img
@@ -17,7 +17,10 @@ const Avatar = ({ name, role, photo, bio }) => {
           <div className="flex flex-row items-center justify-between font-bold text-xl ">
             <div className="text-lg">{name}</div>
             <div>
-              <img src="img/crow.svg" className="w-8 ml-auto" />
+        
+              <img src="img/crow.svg" className="w-8 ml-auto block dark:hidden" />
+              <img src="img/crow-white.svg" className="w-8 ml-auto hidden dark:block" />
+
             </div>
           </div>
           <div className="text-md mb-5">{role}</div>

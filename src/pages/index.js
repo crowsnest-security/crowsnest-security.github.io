@@ -1,9 +1,7 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Hero from "../components/Hero";
-
 import SocialProof from "../components/SocialProof";
-
 import FeatureSection from "../components/FeatureSection";
 import FeatureIntegration from "../components/FeatureIntegration";
 import FeatureTooling from "../components/FeatureTooling";
@@ -13,17 +11,14 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   const cloudvendors = [
-    { name: "microsoft", logo: "img/vendors/microsoft.png" },
-    { name: "google", logo: "img/vendors/google.png" },
-    { name: "amazon", logo: "img/vendors/amazon.png" },
-    { name: "oracle", logo: "img/vendors/oracle.png" },
+    { name: "cloud", logo: "img/vendors/cloud.jpeg" },
+    { name: "unified-view", logo: "img/vendors/unified-view.jpeg" },
   ];
 
   const frameworkvendors = [
     { name: "nist", logo: "img/vendors/nist.svg" },
-    { name: "hipaa", logo: "img/vendors/hipaa.png" },
     { name: "iso", logo: "img/vendors/iso.png" },
-    { name: "soc2", logo: "img/vendors/soc2.png" },
+    { name: "cis", logo: "img/vendors/cis.jpg" },
   ];
 
   const vendors = [

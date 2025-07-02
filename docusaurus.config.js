@@ -86,6 +86,8 @@ const config = {
         logo: {
           alt: "Crowsnest Systems Inc.",
           src: "img/navlogo.svg",
+          srcDark: "img/navlogo-dark.svg",
+          className: "navbar__logo",
         },
         items: [
           // {
@@ -97,7 +99,8 @@ const config = {
           { to: "/", label: "Home", position: "left" },
           { to: "/about", label: "About", position: "left" },
           { to: "/our-story", label: "Our Story", position: "left" },
-          { to: "/features", label: "Features", position: "left" },
+          { to: "/products", label: "Products", position: "left" },
+          // { to: "/features", label: "Features", position: "left" },
           { to: "/contact", label: "Try it out", position: "left" },
           // { to: "http://localhost:3000", label: "Demo", position: "left" },
 
@@ -112,24 +115,24 @@ const config = {
       footer: {
         style: "light",
         links: [
-          {
-            title: "Documentation",
-            items: [
-              {
-                label: "Getting Started",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "CrowsNest on Slack",
-                href: "https://crowsnestsecurity.slack.com/",
-              },
-            ],
-          },
+          // {
+          //   title: "Documentation",
+          //   items: [
+          //     {
+          //       label: "Getting Started",
+          //       to: "/docs/intro",
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: "Community",
+          //   items: [
+          //     {
+          //       label: "CrowsNest on Slack",
+          //       href: "https://crowsnestsecurity.slack.com/",
+          //     },
+          //   ],
+          // },
           {
             title: "Corporate",
             items: [

@@ -21,7 +21,7 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-4 text-justify mb-16 ">
         <Testimonial
           quote="CrowsNest was born out of a simple but pressing reality: cybersecurity
-          compliance is broken."
+          strategy is broken."
           name="Robert Erenberg-Andersen"
           role="CEO & Founder"
         />
@@ -48,7 +48,7 @@ export default function Home() {
           aligning your efforts with standards like NIST, ISO 27001, CIS, and
           ISF, and helping your teams move faster, smarter, and with confidence.
           Because in an era of constant threat and ever-shifting regulation,
-          compliance isn’t the destination—it’s the radar.
+          compliance isn’t the destination—it’s the compass.
         </p>
 
         <h2 className="text-3xl tracking-tight  text-gray-900 dark:text-white">
@@ -71,25 +71,14 @@ export default function Home() {
 
         <p>That’s why we built CrowsNest.</p>
         <p>
-          CrowsNest is your central vantage point for cybersecurity compliance.
-          A unified platform that brings together frameworks, controls, and
-          evidence into one real-time, actionable view. No more static
-          spreadsheets, manual mappings, or guesswork.
-        </p>
-        <p>
-          With CrowsNest, security and compliance teams can finally work from
-          the same playbook—tracking posture across frameworks like NIST, ISO
-          27001, CIS, and ISF, surfacing gaps before they become issues, and
-          driving continuous assurance across the organization.
-        </p>
-        <p>
-          It’s not just about passing the audit. It’s about knowing where you
-          stand—at all times.
-        </p>
-
-        <p>
-          Welcome to CrowsNest. Built by cyber experts. Designed for clarity.
-          Engineered for trust.
+          CrowsNest doesn’t just automate compliance. We enable cyber strategy.
+          We bridge the gap between security and technology, aligning teams around clear expectations, measurable goals, and provable outcomes—so that enterprises can build faster, operate more securely, and make smarter decisions, with less friction and more confidence.
+          <br/>
+           <br /><h3>This is cybersecurity at the speed of enterprise.</h3>
+          <br />
+          <h2 className="text-3xl tracking-tight  text-gray-900 dark:text-white">
+          CrowsNest: Secure what’s ahead.
+          </h2>
         </p>
       </main>
     </Layout>

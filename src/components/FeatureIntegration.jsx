@@ -6,27 +6,17 @@ const FeatureSection = ({ vendors }) => {
           <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Seamless Multi-Cloud Integration.
           </h2>
-          <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+          <p className="mb-6 font-normal text-gray-500 lg:text-lg  dark:text-gray-400">
             <p>
               CrowsNest integrates effortlessly with your existing cloud
-              platforms — no heavy lifting required. It pulls live compliance
-              telemetry directly into the CrowsNest Compliance Manager, giving
-              you a unified view of your organisation’s security posture through
-              the lens of individual products and workloads.
-            </p>
-
-            <p>
-              Go beyond surface-level vendor dashboards. CrowsNest delivers
-              deep, actionable insights with business-contextualised risk
-              visibility, enabling the right teams to remediate efficiently and
-              with clarity. Multicloud support isn’t a premium — it’s built in
-              from day one.
+              platforms — <b>no heavy lifting required.</b> It pulls live telemetry directly from your systems, 
+              giving you a unified view of your organization's security posture through the lens of individual products and workloads.
             </p>
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
           {vendors.map((vendor) => (
-            <div className="mx-auto card rounded-2xl p-5 h-24 w-48 justify-center items-center">
+            <div className="mx-auto card rounded-2xl h-24 w-48 justify-center items-center">
               <img className="" src={vendor.logo} alt={vendor.name} />
             </div>
           ))}

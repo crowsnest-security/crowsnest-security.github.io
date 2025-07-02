@@ -242,6 +242,10 @@ kbd {
   width: 13.5rem;
 }
 
+.navbar__link--active {
+  color: #468ecc;
+}
+
 code[class^="codeBlockLines_"] {
   white-space: pre-wrap;
   overflow-wrap: anywhere;

@@ -6,7 +6,7 @@ const FeatureSection = ({ vendors }) => {
           <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Seamless Multi-Cloud Integration.
           </h2>
-          <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+          <p className="mb-6 font-normal text-gray-500 lg:text-lg  dark:text-gray-400">
             <p>
               CrowsNest integrates effortlessly with your existing cloud
               platforms — <b>no heavy lifting required.</b> It pulls live telemetry directly from your systems, 

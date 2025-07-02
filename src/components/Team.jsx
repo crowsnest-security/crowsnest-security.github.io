@@ -42,7 +42,7 @@ const Team = () => {
           <h2 className="mx-auto text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Built by Leaders in Cybersecurity
           </h2>
-          <p className="mt-8 p-5 text-md font-light w-full text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="mt-8 p-5 text-md font-normal w-full text-gray-500 sm:text-xl dark:text-gray-400">
             CrowsNest is powered by a team of world-class cybersecurity
             experts—former CISOs, security architects, and compliance leaders
             from world-class technology companies and global enterprises. With
@@ -52,7 +52,7 @@ const Team = () => {
         </div>
         <div>
           <h2 className="mb-8 text-3xl tracking-tight  text-gray-900 dark:text-white">
-            Founders
+            Meet the Founding Team
           </h2>
         </div>
         <div className="mb-16 flex flex-row flex-wrap justify-center mx-auto gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">

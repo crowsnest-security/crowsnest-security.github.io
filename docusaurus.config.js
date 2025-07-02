@@ -99,7 +99,8 @@ const config = {
           { to: "/", label: "Home", position: "left" },
           { to: "/about", label: "About", position: "left" },
           { to: "/our-story", label: "Our Story", position: "left" },
-          { to: "/features", label: "Features", position: "left" },
+          { to: "/products", label: "Products", position: "left" },
+          // { to: "/features", label: "Features", position: "left" },
           { to: "/contact", label: "Try it out", position: "left" },
           // { to: "http://localhost:3000", label: "Demo", position: "left" },
 

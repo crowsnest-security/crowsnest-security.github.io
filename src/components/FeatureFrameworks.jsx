@@ -6,7 +6,7 @@ const FeatureFrameworks = ({ vendors }) => {
           <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Assurance against all major security frameworks
           </h2> 
-          <p className="mb-6 font-light text-gray-00 md:text-lg dark:text-gray-400">
+          <p className="mb-6 font-normal text-gray-500 lg:text-lg  dark:text-gray-400">
             <p>
               CrowsNest continuously maps your security signals to leading
               industry frameworks like ISO, NIST & CIS and bespoke internal policies —

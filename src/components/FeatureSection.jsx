@@ -27,7 +27,7 @@ const FeatureSection = () => {
               Finally, everyone – from dev to exec – sees what matters most, in a way that makes sense to them. 
           <br /> No more guesswork, just results.</p>
           <a
-              href="features"
+              href="products"
               className="inline-flex items-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm py-2.5 text-center dark:focus:ring-primary-900"
             >
               Explore Product

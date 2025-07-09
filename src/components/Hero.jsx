@@ -3,7 +3,7 @@ const Hero = () => {
     <section className="dark:bg-crow-dark ">
       <div className="py-4 px-4 mx-auto max-w-screen-xl text-center ">
         <img
-          src="img/cnui.svg"
+          src="img/cnui.png"
           className="md:h-88 mb-5 md:mb-10 mx-auto md:shadow-xl rounded-lg"
         />
         <h2 className="mb-4 text-3xl md:text-5xl font-extrabold leading-none text-gray-900 lg:text-6xl dark:text-white">
@@ -15,7 +15,7 @@ const Hero = () => {
          <br/>
          <br/>
          CrowsNest helps you chart a new course. We're building the first true <b>Cyber Strategy Platform</b>, not just another compliance tool. 
-         We bring <b>clarity, control, and the ability to act</b> by aligning and automating Cyber Governance, Risk, Compliance, and Architecture. 
+         We bring <b>clarity and control</b> to align and automate Cyber Governance, Risk, Compliance, and Architecture. 
          <br/>
          <br/>
          It's time for modern CISOs to lead, not just react.

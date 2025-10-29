@@ -4,34 +4,34 @@ import Avatar from "./Avatar";
 const Team = () => {
   const team = [
     {
-      name: "Robert Erenberg-Andersen",
-      role: "Chief Executive Officer & Founder",
-      photo: "img/avatars/rob.jpg",
+      name: "Chief Executive Officer & Founder",
+      role: " ",
+      photo: "img/crow.svg",
       bio: "Award-winning, globally-recognized cybersecurity expert with extensive experience guiding F500 companies, militaries and government insitutions through cyber transformations",
     },
     {
-      name: "Jerry Becker",
-      role: "Chief Operating Officer",
-      photo: "img/avatars/jerry.jpg",
+      name: "Chief Operating Officer",
+      role: " ",
+      photo: "img/crow.svg",
       bio: "Leading specialist in business development & transformation, customer success and innvation, with a track record of deliveing results spanning Big Tech, Management Consulting and Military Service",
     },
     {
-      name: "Andy Block",
-      role: "Chief Technical Officer",
-      photo: "img/avatars/andy.jpg",
+      name: "Chief Technical Officer",
+      role: "",
+      photo: "img/crow.svg",
       bio: "World-renowned cloud technologist and open source maintainer specialising in holistic system design and cuttingedge technology solutions within Big Tech",
     },
 
     {
-      name: "Kris Kearton",
-      role: "Chief Security Officer",
-      photo: "img/avatars/kris.jpg",
-      bio: "Veteran Chief Information and Security Officeer, with 30+ years of experience in cybersecurity, risk management, and compliance across global enterprises",
+      name: "Chief Information Officer",
+      role: " ",
+      photo: "img/crow.svg",
+      bio: "Veteran Chief Information and Security Officer, with 30+ years of experience in cybersecurity, risk management, and compliance across global enterprises",
     },
     {
-      name: "Bríd Mackay",
-      role: "Chief Experience Officer",
-      photo: "img/avatars/brid.jpg",
+      name: "Chief Experience Officer",
+      role: " ",
+      photo: "img/crow.svg",
       bio: "Recognized experience and agile lead, designing and fostering lasting, bespoke enterprise user experiences, brand and relationships",
     },
   ];

@@ -52,7 +52,7 @@ const Team = () => {
         </div>
         <div>
           <h2 className="mb-8 text-3xl tracking-tight  text-gray-900 dark:text-white">
-            Meet the Founding Team
+            Meet the Leadership Team
           </h2>
         </div>
         <div className="mb-16 flex flex-row flex-wrap justify-center mx-auto gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">

@@ -19,7 +19,7 @@ const Team = () => {
       name: "Chief Technical Officer",
       role: "",
       photo: "img/crow.svg",
-      bio: "World-renowned cloud technologist and open source maintainer specialising in holistic system design and cuttingedge technology solutions within Big Tech",
+      bio: "Leading cloud and security strategist, driving enterprise innovation across edge, AI, and Kubernetes ecosystems with experience in Big Tech and Defense",
     },
 
     {

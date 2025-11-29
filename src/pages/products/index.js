@@ -23,7 +23,7 @@ export default function Products() {
               </div>
               <div class="me-auto place-self-center lg:col-span-7">
                 <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl">
-                  CrowsNest Compass
+                  CrowsNest
                 </h1>
                 <p class="mb-6 text-gray-500 dark:text-gray-400">A hyper-advanced Governance & Compliance Engine that delivers real-time, system-level attestations through direct integrations—measuring security posture against industry frameworks and bespoke internal policies, with tailored views for developers, business leads, and executives alike.</p>
                 <a href="contact" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-sky-500"> Request a Demo</a>
@@ -86,23 +86,6 @@ export default function Products() {
             </div>
           </section>
           </div>
-        </section>
-        <section class="bg-white px-4 py-8 antialiased dark:bg-gray-900 md:py-16">
-            <div class="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 dark:bg-gray-800 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
-              <div class="lg:col-span-5 lg:mt-0">
-                <a href="#">
-                  <img class="mb-4 dark:hidden h-auto rounded" src="img/radar.jpg" alt="radar" />
-                  <img class="mb-4 hidden dark:block h-auto rounded" src="img/radar.jpg" alt="radar" />
-                </a>
-              </div>
-              <div class="me-auto place-self-center lg:col-span-7">
-                <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl">
-                  CrowsNest Radar
-                </h1>
-                <p class="mb-6 text-gray-500 dark:text-gray-400">A powerful Risk Analytics Engine that translates security gaps into meaningful business impact—quantifying risk across cost, operational downtime, legal exposure, reputational harm, and regulatory penalties.</p>
-                <a href="contact" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-sky-500"> Coming Soon</a>
-              </div>
-            </div>
         </section>
        <section class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
           <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">

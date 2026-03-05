@@ -18,273 +18,102 @@ export default function Privacy() {
       </header>
 
       <main className="max-w-3xl mx-auto px-4 text-justify mb-16 ">
+    <h1>Privacy Policy</h1>
+    <div class="effective-date">
+        <p>Effective Date: 23/02/2026</p>
+        <p>Last Updated: 23/02/2026</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>CrowsNest Systems, Inc. (“CrowsNest,” “we,” “our,” or “us”) is a cybersecurity software company providing governance, risk, and compliance automation platforms for enterprise customers.</p>
+    <p>We are committed to protecting personal data and complying with:</p>
+    <ul>
+        <li>The EU General Data Protection Regulation (EU) 2016/679 (“GDPR”)</li>
+        <li>The UK GDPR</li>
+        <li>The US-EU Data Privacy Framework (DPF)</li>
+        <li>The Swiss-US Data Privacy Framework</li>
+        <li>Applicable U.S. federal and state privacy laws </li>
+    </ul>
+    <p>This Privacy Policy explains how we collect, use, disclose, and safeguard personal data when you visit our website, engage with us as a customer, use our products, or interact with us professionally.</p>
+
+    <h2>2. Roles and Scope of Processing</h2>
+    <p>CrowsNest operates in two distinct roles:</p>
+    <h3>2.1 Controller</h3>
+    <p>We act as a data controller when we process personal data for website visitors, marketing, events, business contacts, and recruitment.</p>
+    <h3>2.2 Processor</h3>
+    <p>We act as a data processor when we process personal data on behalf of our enterprise customers in connection with our cybersecurity automation platform. In those cases, we process data solely pursuant to a Data Processing Agreement (DPA).</p>
+
+    <h2>3. Categories of Personal Data We Collect</h2>
+    <h3>3.1 Website & Marketing Data (Controller)</h3>
+    <ul>
+        <li>Name, business email, company name, job title, and phone number </li>
+        <li>IP address, browser/device information, and cookie identifiers </li>
+    </ul>
+    <h3>3.2 Customer & Account Data (Controller)</h3>
+    <ul>
+        <li>Account administrator details, billing information, and business communications </li>
+    </ul>
+    <h3>3.3 Product Data (Processor)</h3>
+    <p>Depending on configuration, we may process usernames, corporate emails, access logs, and security telemetry metadata. Our platform is not designed to collect sensitive personal, biometric, or health data.</p>
+
+    <h2>4. Legal Bases for Processing (GDPR)</h2>
+    <p>Where GDPR applies, we rely on:</p>
+    <ul>
+        <li>Article 6(1)(b) – Performance of a contract</li>
+        <li>Article 6(1)(f) – Legitimate interests (e.g., improving services, security, preventing fraud)</li>
+        <li>Article 6(1)(a) – Consent</li>
+        <li>Article 6(1)(c) – Legal obligation </li>
+    </ul>
+
+    <h2>5. Data Privacy Framework (DPF) Participation</h2>
+    <p>CrowsNest Systems, Inc. complies with the EU-U.S. DPF and the Swiss-U.S. DPF. We are subject to the investigatory and enforcement powers of the U.S. Federal Trade Commission (FTC). For more information, visit <a href="https://www.dataprivacyframework.gov/">https://www.dataprivacyframework.gov/</a>.</p>
+
+    <h2>6. International Data Transfers</h2>
+    <p>CrowsNest is headquartered in the United States. We ensure lawful transfer mechanisms through DPF certification, Standard Contractual Clauses (SCCs), and DPAs.</p>
+
+    <h2>7. Data Sharing & Onward Transfers</h2>
+    <p>We may share data with providers for cloud infrastructure, hosting, security, and analytics. All subprocessors are bound by written agreements. <strong>We do not sell personal data</strong>.</p>
+
+    <h2>8. Data Security</h2>
+    <p>We implement technical measures including TLS 1.2+ / 1.3 encryption, access controls (RBAC), audit logging, and regular security testing.</p>
+
+    <h2>9. Data Retention</h2>
+    <p>We retain personal data only as long as necessary for contractual, legal, or legitimate business purposes.</p>
+
+    <h2>10. Individual Rights (GDPR)</h2>
+    <p>Users in the EU/EEA have rights to access, rectify, erase, and object to processing. Requests can be submitted to <strong>privacy@crowsnestsecurity.com</strong>.</p>
+
+    <h2>11. Disclosures Required by Law</h2>
+    <p>We may be required to disclose personal information in response to lawful requests by public authorities for national security or law enforcement.</p>
+
+    <h2>12. Dispute Resolution (DPF)</h2>
+    <p>Complaints should first be sent to <strong>privacy@crowsnestsecurity.com</strong>. Unresolved complaints may be referred to <strong>JAMS</strong> (<a href="https://www.jamsadr.com/DPF-Dispute-Resolution">https://www.jamsadr.com/DPF-Dispute-Resolution</a>) at no cost to the individual.</p>
+
+    <h2>13. Choice</h2>
+    <p>Individuals can opt out of data disclosure to non-agent third parties or use for materially different purposes by contacting us.</p>
+
+    <h2>14. Cookies</h2>
+    <p>We use cookies for essential functionality, security, and analytics. Users can manage preferences via browser settings.</p>
+
+    <h2>15. Children’s Data</h2>
+    <p>Our services are not directed to individuals under 16.</p>
+
+    <h2>16. Changes to This Policy</h2>
+    <p>Material changes will be posted on our website and communicated to customers as required.</p>
+
+    <h2>17. Contact Information</h2>
+    <div class="contact-info">
+        <p><strong>CrowsNest Systems, Inc.</strong></p>
+        131 Continental Dr, Suite 305<br />
+        Newark, DE, 19713 US<br/>
         <p>
-          CrowsNest Systems (“we”, “our”, “us”) is committed to protecting and
-          respecting your privacy. This privacy policy will explain how we
-          collect, use, store, and disclose your personal data when you use our
-          websites and services, incompliance with the General Data Protection
-          Regulation (GDPR), the California Consumer Privacy Act (CCPA), and
-          other relevant laws.
-        </p>
-
-        <p>
-          Topics covered:
-          <ol>
-            <li>What data do we collect? </li>
-            <li>How do we collect your data?</li>
-            <li>How will we use your data? </li>
-            <li>How do we store your data? </li>
-            <li>Marketing</li>
-            <li>What are your data protection rights? </li>
-            <li>What are cookies?</li>
-            <li>How do we use cookies? </li>
-            <li>What types of cookies do we use? </li>
-            <li>How to manage your cookies</li>
-            <li>International data transfers</li>
-            <li> Data security Privacy policies of other websites </li>
-            <li>Changes to our privacy policy</li>
-            <li>How to contact us </li>
-            <li>How to contact the appropriate authorities</li>
-          </ol>
-        </p>
-
-        <h2>1. What data do we collect?</h2>
-        <p>
-          CrowsNest Systems may collect the following types of personal data:
-          <ul>
-            <li>
-              Personal Identification Information: Name, email address, phone
-              number, postal address{" "}
-            </li>
-            <li>Payment Information: Credit card details, billing address</li>
-            <li>
-              Technical Data: IP address, browser type, operating system, device
-              information, and other technical data collected through cookies or
-              other tracking technologies
-            </li>
-            <li>
-              Usage Data: Information about how you use our website, products,
-              and services
-            </li>
-            <li>
-              Marketing and Communications Data: Your preferences in receiving
-              marketing from us and your communication preferences
-            </li>
-          </ul>
-        </p>
-
-        <h2>2. How do we collect your data? </h2>
-        <p>
-          We may collect data in the following ways:
-          <ul>
-            <li>
-              Direct Interactions: You provide your data when you register,
-              place an order, fill out forms, or correspond with us
-            </li>
-            <li>
-              Automated Technologies: As you interact with our website, we may
-              automatically collect technical data using cookies, server logs,
-              and other similar technologies
-            </li>
-
-            <li>
-              Third-Party Sources: We may receive personal data about you from
-              various third parties, such as analytics providers, advertising
-              networks, and search engines.
-            </li>
-          </ul>
-        </p>
-
-        <h2>3. How will we use your data?</h2>
-        <p>
-          CrowsNest Systems may use your data for the following purposes:
-          <ul>
-            <li>To process your orders and manage your account</li>
-            <li>To provide customer support and respond to your inquiries</li>
-
-            <li>To improve our website, products, and services</li>
-            <li>To personalize your experience on our website</li>
-            <li>
-              To send you marketing communications if you have opted in to
-              receive them
-            </li>
-            <li>
-              To comply with legal obligations and protect our legal rights
-            </li>
-            <li>
-              To conduct analytics and gather information so that we can improve
-              our services.
-            </li>
-          </ul>
-        </p>
-
-        <h2>4. How do we store your data? </h2>
-        <p>
-          We store your data securely using our third-party cloud storage
-          provider, ensuring that encryption and other appropriate security
-          measures are in place.
-        </p>
-        <p>
-          We retain your personal data only as long as necessary to fulfill the
-          purposes for which it was collected, including any legal, accounting,
-          or reporting requirements. After that period, we will delete your data
-          by purging it from our encrypted databases.
-        </p>
-
-        <h2>5. Marketing</h2>
-        <p>
-          CrowsNest Systems may send you information about our products and
-          services that we think you may like, as well as those of our partner
-          companies (if any). You can opt-out of receiving these communications
-          at any time by following the unsubscribe instructions in our emails or
-          by contacting us directly.
-        </p>
-        <p>
-          You have the right at any time to stop Our Company from contacting you
-          for marketing purposes or giving your data to other members of the Our
-          Company Group.{" "}
-        </p>
-
-        <h2>6. What are your data protection rights?</h2>
-        <p>
-          Under GDPR and other applicable laws, you have the following rights:
-          <ul>
-            <li>
-              The right to access - You have the right to request copies of your
-              personal data from us.{" "}
-            </li>
-
-            <li>
-              The right to rectification - You have the right to request that we
-              correct any information you believe is inaccurate or incomplete
-            </li>
-
-            <li>
-              The right to erasure - You have the right to request that Our
-              Company erase your personal data, under certain conditions{" "}
-            </li>
-
-            <li>
-              The right to restrict processing - You have the right to request
-              that we restrict the processing of your personal data, under
-              certain conditions
-            </li>
-
-            <li>
-              The right to object to processing - You have the right to object
-              to our processing of your personal data, under certain conditions
-            </li>
-
-            <li>
-              The right to data portability - You can request that we transfer
-              your data to another organization, or directly to you, under
-              certain conditions
-            </li>
-          </ul>
-          If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please contact us at our
-          email:{" "}
-          <a href="mailton:info@CrowsNestsecurity.com?subject='GDPR Request'">
-            info@CrowsNestsecurity.com
-          </a>
-        </p>
-
-        <h2>7. What are cookies? </h2>
-        <p>
-          Cookies are small text files placed on your computer to collect
-          standard Internet log information and visitor behavior information.
-          This information is used to track visitor use of the website and to
-          compile statistical reports on website activity.{" "}
-        </p>
-
-        <h2>8. How do we use cookies?</h2>
-        <p>
-          CrowsNest uses cookies in a range of ways to improve your experience
-          on our website, including:
-          <ul>
-            <li>Keeping you signed in</li>
-            <li>Understanding how you use our website</li>
-          </ul>
-        </p>
-
-        <h2>9. What types of cookies do we use? </h2>
-        <p>
-          We use several types of cookies on our website:
-          <ul>
-            <li>
-              Essential Cookies - Necessary for the operation of the website
-            </li>
-
-            <li>
-              Functionality Cookies - To remember your preferences and
-              personalize your experience. Performance Cookies - To analyze how
-              visitors use our website and improve its performance.
-            </li>
-
-            <li>
-              Advertising Cookies- To deliver relevant advertisements to you and
-              track the effectiveness of our marketing campaigns.
-            </li>
-          </ul>
-        </p>
-
-        <h2>10. How to manage cookies</h2>
-        <p>
-          You can set your browser to refuse cookies or alert you when cookies
-          are being sent. However, if you disable cookies, some parts of our
-          website may become inaccessible or not function properly.
-        </p>
-
-        <h2>11. International Data Transfers</h2>
-        <p>
-          Your personal data may be transferred to, stored, and processed in
-          countries outside of your jurisdiction, including the United States,
-          where data protection laws may be different from those in your
-          country. We will take all necessary steps to ensure that your data is
-          treated securely and in accordance with this privacy policy.
-        </p>
-
-        <h2>12. Data Security</h2>
-        <p>
-          We implement appropriate technical and organizational measures to
-          protect your personal data from unauthorized access, use, alteration,
-          or disclosure. However, no internet-based site can be 100% secure, and
-          we cannot be held responsible for unauthorized or unintended access
-          that is beyond our control.
-        </p>
-        <h2>13. Privacy policies of other websites </h2>
-        <p>
-          Our website contains links to other websites. Our privacy policy
-          applies only to our website. If you click on a link to another
-          website, we encourage you to read their privacy policy.{" "}
-        </p>
-        <h2>14. Changes to our privacy policy</h2>
-        <p>
-          We regularly review our privacy policy and update this page with any
-          changes. This privacy policy was last updated on 13 August of 2024.
-        </p>
-        <h2>How to contact us </h2>
-        <p>
-          If you have any questions about this privacy policy, the data we hold
-          on you, or you would like to exercise one of your data protection
-          rights, please contact us at:{" "}
-          <a href="mailton:info@CrowsNestsecurity.com?subject='GDPR Request'">
-            info@CrowsNestsecurity.com
-          </a>
-        </p>
-        <h2>15. How to contact the appropriate authority </h2>
-        <p>
-          If you feel that we have not addressed your concerns in a satisfactory
-          manner, you have the right to lodge a complaint with the relevant data
-          protection authority:
-          <ul>
-            <li>In the EU: Contact your local data protection authority</li>
-            <li>
-              In the US: Contact the Federal Trade Commission (FTC) or your
-              state’s consumer protection office
-            </li>
-          </ul>
-        </p>
+        Email: <a href="mailto:privacy@crowsnestsecurity.com">privacy@crowsnestsecurity.com</a><br />
+        Website: <a href="https://www.crowsnestsecurity.com">https://www.crowsnestsecurity.com</a></p>
+        
+        <p><strong>EU Representative:</strong><br/>
+        Robert S. Erenberg-Andersen<br/>
+        <a href="mailto:robert@crowsnestsecurity.com">robert@crowsnestsecurity.com</a></p>
+    </div>
       </main>
     </Layout>
   );

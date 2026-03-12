@@ -124,8 +124,7 @@ export default function Privacy() {
         <li>We remain responsible and liable under the DPF Principles if third parties that we engage to process personal data on our behalf do so in a manner inconsistent with the Principles.</li>
     </ul>
 
-    <p>For more information about the Data Privacy Framework program, please visit:</p><p> <a href="https://www.dataprivacyframework.gov/ ">https://www.dataprivacyframework.gov/  </a>
-</p>
+    <p>For more information about the Data Privacy Framework program, please visit:</p><p> <a target="_blank" rel="noopener noreferrer" href="https://www.dataprivacyframework.gov/ ">https://www.dataprivacyframework.gov/  </a></p>
 
     <h2>6. International Data Transfers</h2>
     <p>CrowsNest is headquartered in the United States. </p>
@@ -213,7 +212,7 @@ export default function Privacy() {
     </p><p>Individuals with inquiries or complaints regarding our DPF compliance should first contact us at: <a href="mailto:privacy@crowsnestsecurity.com">privacy@crowsnestsecurity.com</a></p>
     <p>If a complaint cannot be resolved through our internal process, CrowsNest Systems, Inc. has agreed to participate in the independent dispute resolution procedures provided by: </p>
     <h3>JAMS</h3>
-    <p><a href="https://www.jamsadr.com/DPF-Dispute-Resolution ">https://www.jamsadr.com/DPF-Dispute-Resolution </a></p>
+    <p><a target="_blank" rel="noopener noreferrer" href="https://www.jamsadr.com/DPF-Dispute-Resolution">https://www.jamsadr.com/DPF-Dispute-Resolution</a></p>
     
     <p>The services of JAMS are provided free of charge to individuals for the purpose of resolving DPF-related complaints. </p>
     <p>Under certain conditions, and as described in the EU-U.S. DPF and Swiss-U.S. DPF Principles, individuals may invoke binding arbitration to address residual complaints not resolved by other mechanisms  </p>

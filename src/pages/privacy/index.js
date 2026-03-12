@@ -121,7 +121,7 @@ export default function Privacy() {
     <ul>
         <li>We provide individuals with the opportunity to access personal data about them.</li>
         <li>We will take reasonable steps to correct, amend, or delete personal data that is inaccurate or processed in violation of the DPF Principles.</li>
-        <li>We remain responsible and liable under the DPF Principles if third parties that we engage to process personal data on our behalf do so in a manner inconsistent with the Principles.</li>
+        <li>We remain responsible and liable under the DPF Principles if third parties that we engage to process personal data on our behalf do so in a manner inconsistent with the Principles, unless we prove we are not responsible for the event giving rise to the damage.</li>
     </ul>
 
     <p>For more information about the Data Privacy Framework program, please visit:</p><p> <a target="_blank" rel="noopener noreferrer" href="https://www.dataprivacyframework.gov/ ">https://www.dataprivacyframework.gov/  </a></p>
